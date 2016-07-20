@@ -1,0 +1,8 @@
+exclude .hgignore .gitignore
+include CHANGELOG LICENSE README.rst
+exclude mezzanine_youth_sports/migrations/*
+include mezzanine_youth_sports/templates/admin/includes/quick_jobpost.html
+include mezzanine_youth_sports/templates/careers/includes/filter_panel.html
+include mezzanine_youth_sports/templates/careers/jobpost_detail.html
+include mezzanine_youth_sports/templates/careers/jobpost_list.html
+global-exclude *.pyc
